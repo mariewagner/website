@@ -8,17 +8,145 @@
   <title>Marie</title>
 </head>
 
-<body>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
-<div class="page-header">
-    <ul class="nav nav-pills navbar-nav pull-right">
-        <li role="presentation" class="active"><a style="color:white" href="#">About Me</a></li>
-        <li role="presentation"><a style="color:white" href="#">Resume</a></li>
-        <li role="presentation"><a style="color:white" href="contact.html">Contact</a></li>
-    </ul>
-    <h1>Website under construction :)</h1>
-</div>
+  <nav class="navbar navbar-default navbar-fixed-top top-nav-collapse" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand name" href="index.html" style="color: #1E88E5;">
+          Marie Wagner
+        </a>
+      </div>
+      <div class="navbar-right page-scroll">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
 
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+          <li class="hidden">
+            <a class="page-scroll" href="#page-top"></a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#about">About</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#experience">Experience</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    <!-- /.navbar-collapse -->
+    </div>
+  <!-- /.container -->
+  </nav>
+
+  <!-- Intro Section -->
+  <section id="intro" class="intro-section">
+    <div class="image-container">
+          <img class='header-image' src="assets/sky.jpg">
+    </div>
+  </section>
+
+    <!-- About Section -->
+  <section id="about" class="about-section">
+    <div class="container">
+      <div class="row">
+        <h2 style="color: #1E88E5;">About Me</h2>
+        <div class="col-lg-6">
+          <img class="about-image" src="assets/me.jpg">
+        </div>
+        <div class="col-lg-6">
+          <h4 class="about-text">Hi, I'm Marie!  I am a software engineer at TellApart, a start-up that does predictive marketing.
+          I graduated from University of Maryland Baltimore County in 2014 with a BS in computer science and a minor in mathematics.
+            Besides programming, I also enjoy reading, watching TV, bike riding, working out, and exploring the area (since I'm new to California).
+          </h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="experience" class="experience-section">
+    <div class="container">
+      <div class="row">
+        <h2 style="color: #1E88E5;">Experience</h2>
+        <div class="col-lg-12">
+          <p>
+            <br>
+            <b>Employment:</b>
+            <br>
+            Software Engineer, TellApart: February 2015 - Present
+            <br>
+            Software Engineering Intern, Google (Mountain View): May 2014 - August 2014
+            <br>
+            Engineering Practicum Intern, Google (Mountain View): May 2013 - August 2013
+            <br>
+            Technical Intern (Software Engineering), Johns Hopkins University Applied Physics Laboratory: May 2011 - January 2014
+            <br>
+            <br>
+            <b>Programming Languages:</b>
+            <br>
+            Java, Python (Django), JavaScript (d3.js, Ember.js), C, C#, HTML/CSS/LESS
+            <br>
+            <br>
+            <b>Programming Applications:</b>
+            <br>
+            IntelliJ, Eclipse, PostgreSQL, MySQL, MongoDB, Git, Bower, Adobe Flex
+            <br>
+            <br>
+            <b>Areas of Interest:</b>
+            <br>
+            Software Development (full-stack), Data Visualization, Machine Learning
+
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <div class="panel panel-default">
+      <div class="panel-body">
+        <h4>The best way to reach me is by email:
+            <a href="mailto:marie.wagner92@gmail.com">marie.wagner92@gmail.com</a>
+        </h4>
+        <br>
+        <h4>Connect with me on social media:</h4>
+        <a href="http://facebook.com/marie.wagner">
+            <img src="assets/fb-logo.png" width="30" height="30">
+        </a>
+        <a href="https://www.linkedin.com/pub/marie-wagner/50/9b6/2a7">
+            <img src="assets/linkedin-logo.png" width="30" height="30">
+        </a>
+        <a href="https://github.com/mariewagner">
+            <img src="assets/github-logo.png" width="30" height="30">
+        </a>
+        <a href="https://twitter.com/marieewagner">
+            <img src="assets/twitter-logo.png" width="30" height="30">
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- jQuery -->
+  <script src="bower_components/jquery/dist/jquery.js"></script>
+
+  <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+  <!-- Scrolling Nav JavaScript -->
+  <script src="js/jquery.easing.min.js"></script>
+  <script src="js/scrolling-nav.js"></script>
 </body>
 
 </html>
